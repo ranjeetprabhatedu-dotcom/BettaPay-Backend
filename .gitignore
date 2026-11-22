@@ -12,8 +12,6 @@ shared/*/dist/
 services/*/dist/
 
 # Environment — never commit secrets
-.env
-.env.local
 .env.*.local
 !.env.example
 
@@ -40,7 +38,6 @@ coverage/
 .nyc_output/
 
 # Editor
-.vscode/
 .idea/
 *.swp
 *.swo
@@ -60,3 +57,4 @@ pgsql/
 build-output.txt
 *.tsbuildinfo
 fix.md
+config.bat
